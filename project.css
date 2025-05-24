@@ -1,0 +1,135 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+.navbar-brand{
+ font-size: 2rem;
+ color:limegreen
+ 
+ 
+}
+
+
+.navbar-brand:hover{
+color: black;
+transition-property: opacity, transform;
+    font-family: "gf_Dancing_Script variant1", Tofu;
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    font-optical-sizing: auto;
+    opacity: 1;
+    line-height: initial;
+    transition-duration: 350ms;
+}
+
+.nav-link{
+    margin-left: 10px;
+    margin-left: 10px;
+    color:limegreen
+    
+}
+.nav-link:hover{
+     color: black;
+     transition-property: opacity, transform;
+    font-family: "gf_Dancing_Script variant1", Tofu;
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    font-optical-sizing: auto;
+    opacity: 1;
+    line-height: initial;
+    transition-duration: 350ms;
+
+}
+
+.search{
+    height: 40px;
+    width: 80%;
+    margin-right: -35px;
+    border-radius: 60px;
+    border: 2px solid green;
+}
+.btn0{
+    height: 40px;
+    width: 40%;
+    background-color: green; 
+    border-radius: 60px;
+    font-weight: 700;  
+}
+
+.card-body:hover{
+    scale:calc(1.1)
+}
+.btn1{
+    border-radius: 60px;
+}
+.btn1:hover{
+    background-color: green;
+}
+h1{
+    font-weight: 700;
+}
+
+.card:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.card{
+    display:flex}
+
+
+
+.apple{
+    background: url(./Pictures/bgimg3.jpg);
+    background-size:cover ;
+    height: 80vh;
+    width: 100%;
+    
+} 
+
+.footer{
+    background-color: black;
+    color: white;
+}
+
+.btn2{
+    height: 45px;
+    width: 100px;
+    background: white;
+    margin-left: -10px;
+    border: 2px solid white;
+    font-weight: 600;
+}
+
+.footer input {
+    height: 45px;
+    width: 55%;
+    border: 2px solid white;
+    background: black;
+    color: white;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.footer::placeholder{
+    color: white;
+}
+
+.footer p{
+margin: 0%;
+}
+
+.fab{
+    font-size: 2.5rem;
+    cursor: pointer;
+    margin-right: 5px;
+}
+.shop{
+    display:flex
+}
